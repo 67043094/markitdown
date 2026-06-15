@@ -85,7 +85,7 @@ jobs:
       run: pyinstaller --onefile --windowed --name "MarkItDown" ui.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: MarkItDown-macOS-app
         path: dist/MarkItDown
